@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: frerojax
+Version: 0.1
+Summary: Tutorial for implemented Gaussian process regression from scratch with JAX!
+Author: Safran Group
+Author-email: frero.jax@gmail.com
