@@ -1,9 +1,0 @@
-setup.py
-frerojax/__init__.py
-frerojax/kernels.py
-frerojax/likelihoods.py
-frerojax/models.py
-frerojax.egg-info/PKG-INFO
-frerojax.egg-info/SOURCES.txt
-frerojax.egg-info/dependency_links.txt
-frerojax.egg-info/top_level.txt
