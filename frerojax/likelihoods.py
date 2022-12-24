@@ -5,7 +5,7 @@ from typing import Callable, Union
 
 Array = jnp.array
 
-def marginal_loglike(parameters: Union[float,dict], kernel_fn: Callable, X_train: Array, y_train: Array):
+def marginal_loglike(parameters: Union[float,dict], kernel_fn: Callable, X_train: Array, y_train: Array) -> float:
     """Computes the marginal log-likelihood of the conditioned Gaussian process.
     """
     Kxx = kernel_fn(X_train, X_train, parameters)
