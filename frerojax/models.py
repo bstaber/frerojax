@@ -33,7 +33,7 @@ class EuclideanGPR:
     .. code::
     
         def obj_fn(params):
-            return model.loglike_fn(jnp.sqrt(jnp.exp(-params)))
+            return -model.loglike_fn(jnp.sqrt(jnp.exp(-params)))
         results = optimize.minimize(obj_fn, jnp.array([0.0]), method="BFGS")
 
     Get the solution and make predictions
